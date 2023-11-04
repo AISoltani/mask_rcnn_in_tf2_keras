@@ -52,7 +52,7 @@ tensorboard --host 0.0.0.0 --logdir ./logs/ --port 9013 --samples_per_plugin=ima
 ### 测试
 1. 构建模型
 ```python
-# 预测时候batch_size设置为1
+
 from mrcnn.mask_rcnn import MaskRCNN
 mrcnn = MaskRCNN(classes=['_background_', 'aeroplane', 'bicycle', 'bird', 'boat', 'bottle', 'bus',
                               'car', 'cat', 'chair', 'cow', 'diningtable', 'dog', 'horse', 'motorbike',
