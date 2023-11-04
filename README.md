@@ -12,7 +12,7 @@
 - opencv-python
 - matplotlib
 
-### 检测效果
+
 
 - VOC2012
 
