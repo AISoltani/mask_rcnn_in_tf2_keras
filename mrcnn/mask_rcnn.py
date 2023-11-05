@@ -20,6 +20,7 @@ from data.visual_ops import draw_bounding_box, draw_instance
 from data.generate_tfrecord_files import parse_voc_segment_tfrecord
 
 
+
 class MaskRCNN:
     def __init__(self,
                  classes,
