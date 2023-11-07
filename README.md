@@ -82,7 +82,6 @@ image = cv2.imread(image_file)
 # draw_detect_res_figure=True, 这里会将预测结果的目标边框,分割mask画到原图上, 保存在../data/tmp/test.jpeg下
 boxes, class_ids, scores, masks = mrcnn.predict(image=image, anchors=anchors, draw_detect_res_figure=True)
 ```
-
 ### 训练自己的数据
 
 1. labelme打标好自己的数据
