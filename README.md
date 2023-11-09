@@ -10,7 +10,6 @@
 - Pillow
 - opencv-python
 - matplotlib
-
 - VOC2012
 
 <img src="https://raw.githubusercontent.com/yyccR/Pictures/master/mask_rcnn/sample1.png" width="350" height="230"/>  <img src="https://raw.githubusercontent.com/yyccR/Pictures/master/mask_rcnn/sample2.png" width="350" height="230"/>
