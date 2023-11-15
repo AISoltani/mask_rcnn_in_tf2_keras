@@ -4,7 +4,6 @@ import skimage.transform
 import numpy as np
 import tensorflow as tf
 
-
 def overlaps_graph(boxes1, boxes2):
     """Computes IoU overlaps between two sets of boxes.
     boxes1, boxes2: [N, (y1, x1, y2, x2)].
