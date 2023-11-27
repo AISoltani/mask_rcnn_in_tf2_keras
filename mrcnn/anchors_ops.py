@@ -55,7 +55,6 @@ def generate_anchors(scales, ratios, shape, feature_stride, anchor_stride):
                             box_centers + 0.5 * box_sizes], axis=1)
     return boxes
 
-
 def generate_pyramid_anchors(scales, ratios, feature_shapes, feature_strides, anchor_stride):
     """Generate anchors at different levels of a feature pyramid. Each scale
     is associated with a level of the pyramid, but each ratio is used in
